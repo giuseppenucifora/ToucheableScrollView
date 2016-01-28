@@ -18,11 +18,11 @@ s.summary          = "TouchableScrollView is a simple subclass of UIScrollView t
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
 #s.description      = <<-DESC DESC
 
-s.homepage         = "https://github.com/<GITHUB_USERNAME>/TouchableScrollView"
+s.homepage         = "https://github.com/giuseppenucifora/TouchableScrollView"
 # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
 s.license          = 'MIT'
 s.author           = { "Giuseppe Nucifora" => "me@giuseppenucifora.com" }
-s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/TouchableScrollView.git", :tag => s.version.to_s }
+s.source           = { :git => "https://github.com/giuseppenucifora/TouchableScrollView.git", :tag => s.version.to_s }
 # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
 s.platform     = :ios, '7.0'
