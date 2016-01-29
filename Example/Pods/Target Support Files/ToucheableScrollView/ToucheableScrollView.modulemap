@@ -1,0 +1,6 @@
+framework module ToucheableScrollView {
+  umbrella header "ToucheableScrollView-umbrella.h"
+
+  export *
+  module * { export * }
+}

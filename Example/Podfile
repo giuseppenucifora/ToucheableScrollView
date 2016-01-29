@@ -1,11 +1,11 @@
 source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 
-target 'ToucheableScrollView_Example', :exclusive => true do
+target 'ToucheableScrollView_Example' do
   pod 'ToucheableScrollView', :path => '../'
 end
 
-target 'ToucheableScrollView_Tests', :exclusive => true do
+target 'ToucheableScrollView_Tests' do
   pod 'ToucheableScrollView', :path => '../'
 
   pod 'Specta'
