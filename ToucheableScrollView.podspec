@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "ToucheableScrollView"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.summary          = "ToucheableScrollView is a simple subclass of UIScrollView that implement TouchesEnded method for next responders in scrollView."
 
 # This description is used to generate tags and improve search results.
@@ -29,11 +29,5 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'
-  s.resource_bundles = {
-    'ToucheableScrollView' => ['Pod/Assets/*.png']
-  }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
